@@ -1,0 +1,110 @@
+/* Reset*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+}
+
+/* google font*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* bootstrap icon*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.lora{
+    font-family: "Lora", serif;
+}
+
+
+/* Aboutpage */
+.about{
+    text-align: center;
+    line-height: 0%;
+}
+
+.about .about-heading{
+    font-size: xx-large;
+}
+
+.about .contact a{
+    color: rgb(16, 46, 128);
+    text-decoration: none;    
+}
+
+.education{
+    .education-heading{
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 0;
+        // border: 2px solid black;
+    }
+    .line{
+        width: 100%;
+        border: 0.3px solid rgb(119, 8, 8);
+    }
+    .educations{
+        padding: 5px;
+    }
+}
+
+
+.skill{
+    .skill-heading{
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 0;
+        // border: 2px solid black;
+    }
+    .line{
+        width: 100%;
+        border: 0.3px solid rgb(119, 8, 8);
+    }
+    .skills{
+        padding: 5px;
+    }
+}
+
+.experience{
+    .experience-heading{
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 0;
+        // border: 2px solid black;
+    }
+    .line{
+        width: 100%;
+        border: 0.3px solid rgb(119, 8, 8);
+    }
+    .experiences{
+        padding: 5px;
+    }
+}
+
+
+.projects{
+    .projects-heading{
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 0;
+        // border: 2px solid black;
+    }
+    .line{
+        width: 100%;
+        border: 0.3px solid rgb(119, 8, 8);
+    }
+}
+
+
+.leadership{
+    .leadership-heading{
+        text-transform: uppercase;
+        text-align: left;
+        line-height: 0;
+        // border: 2px solid black;
+    }
+    .line{
+        width: 100%;
+        border: 0.3px solid rgb(119, 8, 8);
+    }
+}
