@@ -1,5 +1,5 @@
-/* Reset*/ 
-*{
+/* Reset*/
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,98 +12,133 @@
 /* bootstrap icon*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-.lora{
+.lora {
     font-family: "Lora", serif;
 }
 
+/*  navbar  */
+.navbar {
+    background-color: rgb(77, 65, 65) !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;   
+}
+
+.navbar .navbar-nav .nav-link {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-weight: lighter;
+    text-align: center;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #adabab;
+}
+
+
 
 /* Aboutpage */
-.about{
+.about {
     text-align: center;
     line-height: 0%;
 }
 
-.about .about-heading{
+.about .about-heading {
     font-size: xx-large;
 }
 
-.about .contact a{
+.about .contact a {
     color: rgb(16, 46, 128);
-    text-decoration: none;    
+    text-decoration: none;
 }
 
-.education{
-    .education-heading{
+.education {
+    .education-heading {
         text-transform: uppercase;
         text-align: left;
         line-height: 0;
         // border: 2px solid black;
     }
-    .line{
+
+    .line {
         width: 100%;
         border: 0.3px solid rgb(119, 8, 8);
     }
-    .educations{
+
+    .educations {
         padding: 5px;
     }
 }
 
 
-.skill{
-    .skill-heading{
+.skill {
+    .skill-heading {
         text-transform: uppercase;
         text-align: left;
         line-height: 0;
         // border: 2px solid black;
     }
-    .line{
+
+    .line {
         width: 100%;
         border: 0.3px solid rgb(119, 8, 8);
     }
-    .skills{
+
+    .skills {
         padding: 5px;
     }
 }
 
-.experience{
-    .experience-heading{
+.experience {
+    .experience-heading {
         text-transform: uppercase;
         text-align: left;
         line-height: 0;
         // border: 2px solid black;
     }
-    .line{
+
+    .line {
         width: 100%;
         border: 0.3px solid rgb(119, 8, 8);
     }
-    .experiences{
+
+    .experiences {
         padding: 5px;
     }
 }
 
 
-.projects{
-    .projects-heading{
+.projects {
+    .projects-heading {
         text-transform: uppercase;
         text-align: left;
         line-height: 0;
         // border: 2px solid black;
     }
-    .line{
+
+    .line {
         width: 100%;
         border: 0.3px solid rgb(119, 8, 8);
     }
 }
 
 
-.leadership{
-    .leadership-heading{
+.leadership {
+    .leadership-heading {
         text-transform: uppercase;
         text-align: left;
         line-height: 0;
         // border: 2px solid black;
     }
-    .line{
+
+    .line {
         width: 100%;
         border: 0.3px solid rgb(119, 8, 8);
     }

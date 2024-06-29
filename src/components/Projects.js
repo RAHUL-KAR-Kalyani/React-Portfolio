@@ -2,8 +2,8 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className="container-fluid projects mt-5">
-            <div className="row">
+        <div className="container-fluid projects mt-5 pt-5" id='projects'>
+            <div className="row pt-5">
                 <div className="col-12">
                     <h5 className='fw-bold projects-heading'>projects</h5>
                     <hr className='line' />

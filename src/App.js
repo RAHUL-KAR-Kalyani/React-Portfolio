@@ -16,22 +16,14 @@ function App() {
 			<Router>
 				<div>
 					<Navbar />
-					<Routes>
-						<Route path="/about" element={<About />} />
-						<Route path="/education" element={<Education />} />
-						<Route path="/skills" element={<Skills />} />
-						<Route path="/experience" element={<Experience />} />
-						<Route path="/projects" element={<Projects />} />
-						<Route path="/leadership" element={<Leadership />} />
-					</Routes>
+					<About/>
+					<Education/>
+					<Skills/>
+					<Experience/>
+					<Projects/>
+					<Leadership/>					
 				</div>
-			</Router>
-			{/* <About/>
-			<Education/>
-			<Skills/>
-			<Experience/>
-			<Projects/>
-			<Leadership/> */}					
+			</Router>					
 		</div>
 	);
 }
