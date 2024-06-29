@@ -5,7 +5,7 @@ const Leadership = () => {
         <div className="container-fluid leadership mt-5">
             <div className="row">  
             <div className="col-12">
-                    <h5 className='fw-bold leadership-heading'>education</h5>
+                    <h5 className='fw-bold leadership-heading'>leadership</h5>
                     <hr className='line' />
                 </div>              
                 <div className="col-12 ps-4 pe-4">
