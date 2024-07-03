@@ -2,7 +2,7 @@ import React from 'react';
 
 const Leadership = () => {
     return (
-        <div className="container-fluid leadership mt-5 pt-5" id='leadership'>
+        <div className="container-fluid leadership pt-4" id='leadership'>
             <div className="row pt-5">  
             <div className="col-12">
                     <h5 className='fw-bold leadership-heading'>leadership</h5>

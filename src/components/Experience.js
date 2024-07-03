@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = () => {
     return (
-        <div className="container-fluid experience mt-5 pt-5" id='experience'>
+        <div className="container-fluid experience pt-4" id='experience'>
             <div className="row pt-5">
                 <div className="col-12">
                     <h5 className='fw-bold experience-heading'>experience</h5>

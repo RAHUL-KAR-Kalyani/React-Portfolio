@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className="container-fluid skill mt-5 pt-5" id='skills'>
+        <div className="container-fluid skill pt-4" id='skills'>
             <div className="row pt-5">  
                 <div className="col-12">
                 <h5 className='fw-bold skill-heading'>skills</h5>

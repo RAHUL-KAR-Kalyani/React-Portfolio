@@ -1,7 +1,7 @@
 import React from 'react';
 const About = () => {
     return (
-        <div className='about lh-1 pt-5' id='about'>
+        <div className='about lh-1 pt-4' id='about'>
             <h1 className='about-heading pt-5'>RAHUL KAR</h1>
             <p className='about-description'>+91-6290626683 <i class="bi bi-three-dots-vertical"></i> Kolkata, West Bengal, India</p>
 

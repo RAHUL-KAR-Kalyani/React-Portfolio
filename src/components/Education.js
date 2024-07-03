@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => {
     return (        
-        <div className="container-fluid education mt-5 pt-5" id='education'>
+        <div className="container-fluid education pt-4" id='education'>
             <div className="row pt-5">  
                 <div className="col-12">
                     <h5 className='fw-bold education-heading'>education</h5>
